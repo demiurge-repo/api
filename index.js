@@ -4,7 +4,7 @@ const api = x.Router();
 api.use(x.json());
 
 api.get("/", (_req, res) => {
-  return res.json({ test: true });
+  return res.json({ foo: "bar" });
 });
 
 module.exports = api;
